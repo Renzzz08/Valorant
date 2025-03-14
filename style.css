@@ -26,6 +26,7 @@ nav img {
     background-size: contain; 
     height: 80vh;
     margin: 0;
+    
 }
 
 button {
@@ -76,19 +77,31 @@ button {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap; 
-    text-align: center;
-    gap: 10px;
+    text-align: justify;
+    gap: 20px;
+    
 }
 
 .classes img {
-    width: 150px;
+    width: 120px;
     height: auto;
     cursor: pointer;
     transition: transform 0.3s ease;
+    padding-top: 10px;
 }
 .classes img:hover {
     transform: scale(1.1);
 }
+
+.roles p{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
 
 .hover-container {
     display: flex;
