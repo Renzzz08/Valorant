@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 document.getElementById("scrollBtn").addEventListener("click", function() {
     window.scrollBy({
         top: window.innerHeight, 
@@ -6,7 +5,6 @@ document.getElementById("scrollBtn").addEventListener("click", function() {
     });
 });
 //this is for the classes function
-=======
 let scrollBtn = document.getElementById("scrollBtn");
 if (scrollBtn) {
     scrollBtn.addEventListener("click", function() {
@@ -17,7 +15,6 @@ if (scrollBtn) {
     });
 } 
 
->>>>>>> 6f78b2de5bff794d54978ff309a7c808da3f71df
 document.addEventListener("DOMContentLoaded", function () {
     let textBox = document.getElementById("textBox");
     let hoverContainer = document.getElementById("hoverContainer");
