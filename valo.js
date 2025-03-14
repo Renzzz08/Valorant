@@ -1,3 +1,10 @@
+document.getElementById("scrollBtn").addEventListener("click", function() {
+    window.scrollBy({
+        top: window.innerHeight, 
+        behavior: "smooth"
+    });
+});
+//this is for the classes function
 let scrollBtn = document.getElementById("scrollBtn");
 if (scrollBtn) {
     scrollBtn.addEventListener("click", function() {
