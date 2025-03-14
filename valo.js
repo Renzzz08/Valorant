@@ -6,7 +6,7 @@ if (scrollBtn) {
             behavior: "smooth"
         });
     });
-}
+} 
 
 document.addEventListener("DOMContentLoaded", function () {
     let textBox = document.getElementById("textBox");
