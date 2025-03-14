@@ -21,6 +21,7 @@ nav img {
     display: block; 
 }
 
+<<<<<<< HEAD
 .bg {
     margin: 0;
     padding: 0;
@@ -61,11 +62,31 @@ nav img {
     border-radius: 5px;
 }
 
+=======
+>>>>>>> 6f78b2de5bff794d54978ff309a7c808da3f71df
 .backs {
     background: url("Beta_Key_Art_VALORANT.jpg") no-repeat center center;
-    background-size: cover; 
-    height: 100vh;
+    background-size: contain; 
+    height: 80vh;
     margin: 0;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 24px;
+    font-weight: bold;
+    font-size: 36px;
+    background-color: #ff3748;
+    color: white;
+    cursor: pointer;
+    outline: 2px solid white;
+    text-transform: uppercase;
+    border: 2px transparent white;
+    transition: 0.3s ease-in-out;
+    background-color: #ff6f7e;
 }
 
 .AGENT {
@@ -77,6 +98,20 @@ nav img {
     letter-spacing: 4px;
     background: url(VALORANT_V_Red.jpg) no-repeat center center;
     height: 1000px;
+}
+
+.vids {
+    width: 100vw; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.video {
+    position: sticky;
+    width: 100vw; 
+    height: auto; 
 }
 
 .classes {
@@ -108,12 +143,17 @@ nav img {
     margin-top: 20px;
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 6f78b2de5bff794d54978ff309a7c808da3f71df
 .hover-container {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .hover-box {
@@ -133,6 +173,10 @@ nav img {
     width: 180px;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6f78b2de5bff794d54978ff309a7c808da3f71df
 #P1 {
     font-size: 20px;
     margin-top: 10px;
@@ -154,3 +198,4 @@ nav img {
     opacity: 0;
     transition: opacity 0.5s ease;
 }
+
