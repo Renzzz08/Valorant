@@ -23,8 +23,8 @@ nav img {
 
 .backs {
     background: url("Beta_Key_Art_VALORANT.jpg") no-repeat center center;
-    background-size: contain; 
-    height: 80vh;
+    background-size: cover; 
+    height: 100vh;
     margin: 0;
 }
 
@@ -89,13 +89,12 @@ button {
 .classes img:hover {
     transform: scale(1.1);
 }
-
 .hover-container {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
     flex-wrap: wrap;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .hover-box {
@@ -114,6 +113,7 @@ button {
 .hover-image {
     width: 180px;
 }
+
 
 
 #P1 {
@@ -137,4 +137,3 @@ button {
     opacity: 0;
     transition: opacity 0.5s ease;
 }
-
