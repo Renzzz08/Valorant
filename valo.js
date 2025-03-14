@@ -14,30 +14,40 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
+    let rolesHeader = document.querySelector(".roles");
     let textBox = document.getElementById("textBox");
     let hoverContainer = document.getElementById("hoverContainer");
     let images = document.querySelectorAll(".classes img");
 
     images.forEach(img => {
         img.addEventListener("click", function () {
+            let roleName = img.getAttribute("alt") || "Selected Role";
             let hoverSrcList = img.getAttribute("data-hover").split(",");
             let text = img.getAttribute("data-text");
 
-            // Clear previous hover images
+            // Update the role title
+            rolesHeader.textContent = roleName;
+
+            // Clear previous hover-boxes
             hoverContainer.innerHTML = "";
 
             hoverSrcList.forEach(src => {
+                let hoverBox = document.createElement("div");
+                hoverBox.classList.add("hover-box");
+
                 let hoverImg = document.createElement("img");
                 hoverImg.src = src.trim();
                 hoverImg.classList.add("hover-image");
-                hoverContainer.appendChild(hoverImg);
+
+                hoverBox.appendChild(hoverImg);
+                hoverContainer.appendChild(hoverBox);
             });
 
             // Make hover images appear smoothly
             setTimeout(() => {
-                document.querySelectorAll(".hover-image").forEach(hoverImg => {
-                    hoverImg.style.opacity = "1";
-                    hoverImg.style.transform = "translateY(0)";
+                document.querySelectorAll(".hover-box").forEach(box => {
+                    box.style.opacity = "1";
+                    box.style.transform = "translateY(0)";
                 });
             }, 100);
 

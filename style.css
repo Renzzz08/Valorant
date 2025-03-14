@@ -21,16 +21,14 @@ nav img {
     display: block; 
 }
 
-.bg {
-    background: url;
-}
+
 
 .top-nav {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #ff3748;
-    height: 80px;  /* Increased height for a bigger nav */
+    height: 80px;  
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -45,6 +43,7 @@ nav img {
 .top-nav li {
     display: inline;
 }
+
 
 .top-nav a {
     text-decoration: none;
@@ -89,7 +88,7 @@ nav img {
 }
 
 .classes img {
-    width: 150px;
+    width: 90px;
     height: auto;
     cursor: pointer;
     transition: transform 0.3s ease;
