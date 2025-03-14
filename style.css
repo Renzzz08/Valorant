@@ -21,49 +21,6 @@ nav img {
     display: block; 
 }
 
-<<<<<<< HEAD
-.bg {
-    margin: 0;
-    padding: 0;
-}
-
-.top-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ff3748;
-    height: 80px;  /* Increased height for a bigger nav */
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-.top-nav ul {
-    list-style-type: none;
-    display: flex;
-    gap: 40px;  
-}
-
-.top-nav li {
-    display: inline;
-}
-
-.top-nav a {
-    text-decoration: none;
-    font-size: 24px; 
-    font-weight: bold;
-    color: white;
-    padding: 15px 30px;
-    transition: 0.3s ease-in-out;
-}
-
-.top-nav a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 5px;
-}
-
-=======
->>>>>>> 6f78b2de5bff794d54978ff309a7c808da3f71df
 .backs {
     background: url("Beta_Key_Art_VALORANT.jpg") no-repeat center center;
     background-size: contain; 
@@ -143,11 +100,8 @@ button {
     margin-top: 20px;
 }
 
-<<<<<<< HEAD
-=======
 
 
->>>>>>> 6f78b2de5bff794d54978ff309a7c808da3f71df
 .hover-container {
     display: flex;
     justify-content: center;
@@ -173,10 +127,7 @@ button {
     width: 180px;
 }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 6f78b2de5bff794d54978ff309a7c808da3f71df
 #P1 {
     font-size: 20px;
     margin-top: 10px;
