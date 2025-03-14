@@ -21,7 +21,6 @@ nav img {
     display: block; 
 }
 
-<<<<<<< HEAD
 .bg {
     margin: 0;
     padding: 0;
@@ -62,8 +61,6 @@ nav img {
     border-radius: 5px;
 }
 
-=======
->>>>>>> f3db0f10ef7abe8c79712fb39e7d043769f2a5d2
 .backs {
     background: url("Beta_Key_Art_VALORANT.jpg") no-repeat center center;
     background-size: contain; 
@@ -143,11 +140,6 @@ button {
     margin-top: 20px;
 }
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> f3db0f10ef7abe8c79712fb39e7d043769f2a5d2
 .hover-container {
     display: flex;
     justify-content: center;
@@ -173,10 +165,6 @@ button {
     width: 180px;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> f3db0f10ef7abe8c79712fb39e7d043769f2a5d2
 #P1 {
     font-size: 20px;
     margin-top: 10px;
