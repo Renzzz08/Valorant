@@ -4,7 +4,7 @@ document.getElementById("scrollBtn").addEventListener("click", function() {
         behavior: "smooth"
     });
 });
-
+//this is for the classes function
 document.addEventListener("DOMContentLoaded", function () {
     let textBox = document.getElementById("textBox");
     let hoverContainer = document.getElementById("hoverContainer");
