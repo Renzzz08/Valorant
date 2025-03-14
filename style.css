@@ -23,8 +23,8 @@ nav img {
 
 .backs {
     background: url("Beta_Key_Art_VALORANT.jpg") no-repeat center center;
-    background-size: cover; 
-    height: 100vh;
+    background-size: contain; 
+    height: 80vh;
     margin: 0;
 }
 
@@ -52,10 +52,89 @@ button {
     color: white;
     margin-top: 0;
     padding: 20px;
-    background-color: rgb(26, 24, 24);
     letter-spacing: 4px;
+    background: url(VALORANT_V_Red.jpg) no-repeat center center;
+    height: 1000px;
 }
 
 .vids {
-    width: 700px;
+    width: 100vw; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
+
+.video {
+    position: sticky;
+    width: 100vw; 
+    height: auto; 
+}
+
+.classes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    text-align: center;
+    gap: 10px;
+}
+
+.classes img {
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.classes img:hover {
+    transform: scale(1.1);
+}
+
+.hover-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.hover-box {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.hover-image {
+    width: 180px;
+}
+
+
+#P1 {
+    font-size: 20px;
+    margin-top: 10px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.text-box {
+    display: none;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
