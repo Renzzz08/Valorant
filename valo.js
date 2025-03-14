@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+document.getElementById("scrollBtn").addEventListener("click", function() {
+    window.scrollBy({
+        top: window.innerHeight, 
+        behavior: "smooth"
+    });
+});
+//this is for the classes function
+=======
+>>>>>>> c016233dc308d2c68e8383deea06d2c2fb953c3d
 document.addEventListener("DOMContentLoaded", function () {
     let textBox = document.getElementById("textBox");
     let hoverContainer = document.getElementById("hoverContainer");

@@ -23,7 +23,11 @@ nav img {
 
 .bg {
     margin: 0;
+<<<<<<< HEAD
     padding: 0;
+=======
+    
+>>>>>>> 5ce2560b0eb5d3b94e6f0ae1d18ca6897992d6c2
 }
 
 .top-nav {
@@ -84,19 +88,35 @@ nav img {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap; 
-    text-align: center;
-    gap: 10px;
+    text-align: justify;
+    gap: 20px;
+    
 }
 
 .classes img {
-    width: 150px;
+    width: 120px;
     height: auto;
     cursor: pointer;
     transition: transform 0.3s ease;
+    padding-top: 10px;
 }
 .classes img:hover {
     transform: scale(1.1);
 }
+<<<<<<< HEAD
+
+.roles p{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+=======
+>>>>>>> c016233dc308d2c68e8383deea06d2c2fb953c3d
 .hover-container {
     display: flex;
     justify-content: center;
