@@ -21,51 +21,30 @@ nav img {
     display: block; 
 }
 
-.bg {
+.backs {
+    background: url("Beta_Key_Art_VALORANT.jpg") no-repeat center center;
+    background-size: contain; 
+    height: 80vh;
     margin: 0;
     
 }
 
-.top-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ff3748;
-    height: 80px;  /* Increased height for a bigger nav */
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-.top-nav ul {
-    list-style-type: none;
-    display: flex;
-    gap: 40px;  
-}
-
-.top-nav li {
-    display: inline;
-}
-
-.top-nav a {
-    text-decoration: none;
-    font-size: 24px; 
+button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 24px;
     font-weight: bold;
+    font-size: 36px;
+    background-color: #ff3748;
     color: white;
-    padding: 15px 30px;
+    cursor: pointer;
+    outline: 2px solid white;
+    text-transform: uppercase;
+    border: 2px transparent white;
     transition: 0.3s ease-in-out;
-}
-
-.top-nav a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 5px;
-}
-
-.backs {
-    background: url("Beta_Key_Art_VALORANT.jpg") no-repeat center center;
-    background-size: cover; 
-    height: 100vh;
-    margin: 0;
+    background-color: #ff6f7e;
 }
 
 .AGENT {
@@ -77,6 +56,20 @@ nav img {
     letter-spacing: 4px;
     background: url(VALORANT_V_Red.jpg) no-repeat center center;
     height: 1000px;
+}
+
+.vids {
+    width: 100vw; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.video {
+    position: sticky;
+    width: 100vw; 
+    height: auto; 
 }
 
 .classes {
@@ -99,7 +92,6 @@ nav img {
 .classes img:hover {
     transform: scale(1.1);
 }
-<<<<<<< HEAD
 
 .roles p{
     font-size: 20px;
@@ -111,14 +103,12 @@ nav img {
 
 
 
-=======
->>>>>>> c016233dc308d2c68e8383deea06d2c2fb953c3d
 .hover-container {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .hover-box {
@@ -137,7 +127,6 @@ nav img {
 .hover-image {
     width: 180px;
 }
-
 
 
 #P1 {
@@ -161,3 +150,4 @@ nav img {
     opacity: 0;
     transition: opacity 0.5s ease;
 }
+
