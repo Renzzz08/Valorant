@@ -59,12 +59,7 @@ nav img {
     border-radius: 5px;
 }
 
-.backs {
-    background: url("Beta_Key_Art_VALORANT.jpg") no-repeat center center;
-    background-size: cover; 
-    height: 100vh;
-    margin: 0;
-}
+
 
 .AGENT {
     font-family: 'Anton', sans-serif;
@@ -73,11 +68,25 @@ nav img {
     margin-top: 0;
     padding: 20px;
     letter-spacing: 4px;
-    background: url(VALORANT_V_Red.jpg) no-repeat center center;
-    height: 1000px;
+    background: url(VALORANT_JETT_Duotoned.jpg) no-repeat center center;
+    background-size: cover;
+    height: 850px; /* Ensure this is sufficient */
+    position: relative; /* Makes it the reference point for absolute positioning */
+    overflow: hidden; /* Prevents child elements from overflowing */
 }
 
 
+.classes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 10px;
+    position: absolute;
+    bottom: 20px; /* Fixing position at bottom of AGENT */
+    width: 100%;
+}
 .classes {
     display: flex;
     justify-content: center;
@@ -86,7 +95,6 @@ nav img {
     text-align: center;
     gap: 10px;
 }
-
 .classes img {
     width: 90px;
     height: auto;
@@ -97,16 +105,20 @@ nav img {
     transform: scale(1.1);
 }
 .hover-container {
+    position: absolute;
+    top: 180px; /* Adjust based on where you want the pop-up */
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
     flex-wrap: wrap;
-    margin-top: 20px;
+    z-index: 10; /* Ensuring it's above */
 }
 
 .hover-box {
     background: rgba(255, 255, 255, 0.1);
-    border: 2px solid rgba(255, 255, 255, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.1);
     border-radius: 10px;
     padding: 10px;
     display: flex;
@@ -131,16 +143,120 @@ nav img {
 }
 
 .text-box {
-    display: none;
+    position: absolute;
+    top: 490px; /* Above the agent images */
+    left: 50%;
+    transform: translateX(-50%);
     max-width: 600px;
-    margin: 20px auto;
     padding: 15px;
-    background: rgba(255, 255, 255, 0.1);
-    border: 2px solid rgba(255, 255, 255, 0.3);
+    background: rgba(111, 110, 110, 0.092);
     border-radius: 10px;
     text-align: center;
     font-size: 18px;
     line-height: 1.5;
     opacity: 0;
     transition: opacity 0.5s ease;
+    z-index: 10; /* Ensuring it is above */
+}
+
+.bg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: url("Beta_Key_Art_VALORANT.jpg") no-repeat center center;
+    background-size: cover;
+    height: 710px;
+    padding: 20px;
+}
+
+.text-section {
+    width: 40%;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.video-section {
+    width: 50%;
+}
+
+.video-section video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.Agents {
+    font-family: 'Anton', sans-serif;   
+    font-size: 28px;
+    color: white;
+    margin-top: 0;
+    padding: 20px;
+    letter-spacing: 4px;
+    background: url(VALORANT_Logo_V.jpg) no-repeat center center;
+    background-size: cover;
+    height: 750px; /* Ensure this is sufficient */
+    position: relative; /* Makes it the reference point for absolute positioning */
+    overflow: hidden; /* Prevents child elements from overflowing */
+}
+.agent-display {
+    display: flex;
+    align-items: center;  /* Centers the agent image vertically */
+    justify-content: center; /* Centers the agent image horizontally */
+    position: relative;
+    height: 500px; /* Adjust as needed */
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+.main-agent {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+.agent-info {
+    position: absolute;
+    top: 20px; /* Position at the top */
+    right: 20px; /* Align to the right */
+    text-align: right;
+    background: rgba(0, 0, 0, 0.6); /* Slight background for readability */
+    padding: 15px;
+    border-radius: 5px;
+    max-width: 400px;
+    font-size: 16px; /* Reduce font size */
+    line-height: 1.3; /* Adjust line spacing */
+}
+
+.agent-icons {
+    position: absolute;
+    left: 20px; /* Keep it fixed on the left */
+    top: 50%;
+    transform: translateY(-50%); /* Center it vertically */
+    display: flex;
+    flex-direction: column; /* Stack icons vertically */
+    gap: 10px;
+}
+.agent-row {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.agent-box {
+    width: 80px;
+    height: 80px;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+.agent-icon {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
