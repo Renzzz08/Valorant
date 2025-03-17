@@ -164,7 +164,9 @@ nav img {
     align-items: center;
     justify-content: space-between;
     background: url("Beta_Key_Art_VALORANT.jpg") no-repeat center center;
-    background-size: cover;
+    background-size: cover; /* Ensures the image covers the whole div */
+    background-position: center;
+    background-repeat: no-repeat;
     height: 710px;
     padding: 20px;
 }
@@ -201,6 +203,7 @@ nav img {
 }
 .agent-display {
     display: flex;
+    top: 30px;
     align-items: center;  /* Centers the agent image vertically */
     justify-content: center; /* Centers the agent image horizontally */
     position: relative;
@@ -211,6 +214,10 @@ nav img {
     background-repeat: no-repeat;
     padding: 20px;
 }
+.agent-box:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Adds a background to the box on hover */
+    border: 2px solid #ff3748; /* Optional: adds a border to the box on hover */
+}
 .main-agent {
     width: 300px;
     height: auto;
@@ -218,9 +225,9 @@ nav img {
 }
 .agent-info {
     position: absolute;
-    top: 20px; /* Position at the top */
+    top: 30px; /* Position at the top */
     right: 20px; /* Align to the right */
-    text-align: right;
+    text-align: justify; /* Justifies the text */
     background: rgba(0, 0, 0, 0.6); /* Slight background for readability */
     padding: 15px;
     border-radius: 5px;
