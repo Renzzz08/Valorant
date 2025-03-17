@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let agentName = document.getElementById("agent-name");
     let agentDescription = document.getElementById("agent-description");
     let agentBoxes = document.querySelectorAll(".agent-box");
-
+    
     agentBoxes.forEach(box => {
         box.addEventListener("click", function () {
             let name = this.getAttribute("onclick").match(/'([^']+)'/g)[0].replace(/'/g, "");
