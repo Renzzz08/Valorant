@@ -25,6 +25,8 @@ nav img {
 
 .top-nav {
     display: flex;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 3px;
     justify-content: center;
     align-items: center;
     background-color: #ff3748;
@@ -59,8 +61,36 @@ nav img {
     border-radius: 5px;
 }
 
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 4px;
+    color: white;
+    height: 620px;
+    background: url(Untitled_design_.png) no-repeat center center;
+    background-size: cover;
+    padding: 20px;
+    margin-top: 0;
+    font-size: 28px;
+    overflow: hidden; 
+}
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80%;
+    width: 100%;
+}
 
-
+.about-text {
+    flex: 1;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    padding-right: 20px; 
+}
 .AGENT {
     font-family: 'Anton', sans-serif;
     font-size: 28px;
@@ -70,7 +100,7 @@ nav img {
     letter-spacing: 4px;
     background: url(Untitled_design_.png) no-repeat center center;
     background-size: cover;
-    height: 850px; /* Ensure this is sufficient */
+    height: 800px; /* Ensure this is sufficient */
     position: relative; /* Makes it the reference point for absolute positioning */
     overflow: hidden; /* Prevents child elements from overflowing */
 }
@@ -80,21 +110,14 @@ nav img {
 
 
 .classes {
+    position: absolute;
+    bottom: 95px; /* Increase this value to move it up */
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    text-align: center;
-    gap: 10px;
-    position: absolute;
-    bottom: 20px; /* Fixing position at bottom of AGENT */
-    width: 100%;
-}
-.classes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap; 
     text-align: center;
     gap: 10px;
 }
@@ -109,7 +132,7 @@ nav img {
 }
 .hover-container {
     position: absolute;
-    top: 180px; /* Adjust based on where you want the pop-up */
+    top: 110px; /* Adjust based on where you want the pop-up */
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -147,7 +170,7 @@ nav img {
 
 .text-box {
     position: absolute;
-    top: 490px; /* Above the agent images */
+    top: 420px; /* Above the agent images */
     left: 50%;
     transform: translateX(-50%);
     max-width: 600px;
@@ -164,23 +187,23 @@ nav img {
 
 .bg {
     display: flex;
-    font-family: 'Anton', sans-serif;
-    align-items: center;
-    letter-spacing: 3px;
-    justify-content: space-between;
-    background: url("Beta_Key_Art_VALORANT.jpg") no-repeat center center;
-    background-size: cover; /* Ensures the image covers the whole div */
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 690px; /* Adjust height as needed */
+    background: url("L10_Sillos_Final.jpg") no-repeat center center;
+    background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    height: 710px;
     padding: 20px;
+    position: relative; /* Needed for opacity overlay */
 }
 
+
 .text-section {
-    width: 40%;
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Ensures full width */
+    text-align: center;
 }
 
 .video-section {

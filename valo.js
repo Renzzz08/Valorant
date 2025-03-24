@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const targetId = this.getAttribute("href").substring(1);
             const targetElement = document.getElementById(targetId);
             if (targetElement) {
-                const offset = 100;
+                const offset = 70;
                 const elementPosition = targetElement.getBoundingClientRect().top + window.scrollY;
                 window.scrollTo({ top: elementPosition - offset, behavior: "smooth" });
             }
