@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css"> 
+        <link rel="stylesheet" href="style.css">
         <title>Valorant</title>
     </head>
     <body>
@@ -19,6 +19,7 @@
                 <li><a href="#agentSection">Agents</a></li>
             </ul>
         </nav>
+
         <div class="bg">
             <div class="text-section">
                 <h1>Welcome to Valorant</h1>
@@ -31,90 +32,31 @@
                 </video>
             </div>
         </div>
+
+        <!-- Class Section -->
         <div class="AGENT" id="classSection">
             <h2>Class</h2>
             <hr>
-            <main>
-                <p id="P1"></p>
-            </main>
-            <h3 class="class"></h3>
+            <div class="classes" id="classContainer"></div>
             <div id="hoverContainer" class="hover-container"></div>
             <div id="textBox" class="text-box"></div>
-            <main>
-                <h3 class="roles"></h3>
-            </main>
-            <div class="classes">
-                <div class="roles">
-                    <img src="Property 1=Controller.png"  data-hover="Omen_artwork.png,Brimstone_artwork.png" data-text="Controllers in Valorant are all about using their smokes. These agents are able to block off certain areas of the map to make offense or defense easier."><br>
-                    <p>Controller</p>
-                </div>
-                <div class="roles">
-                    <img src="Property 1=Duelist.png" data-hover="Reyna_artwork.png,Jett_artwork.png" data-text="Duelists are the offensive class of agents in Valorant. These agents excel in one-vs-one fights and their goal is to break through the enemies’ defense and win their duels.">
-                    <p>Duelist</p>
-                </div>
-                <div class="roles">
-                    <img src="Property 1=Initiator.png" data-hover="Breach_artwork.png,KAYO_artwork.png,Gekko_artwork.png" data-text="Initiators are the supportive class of agents in Valorant who - unsurprisingly - are particularly well suited to initiating fights and helping your team win them. ">
-                    <p>Initiator</p>
-                </div>
-                <div class="roles">
-                    <img src="Property 1=Sentinel.png" data-hover="Sage_artwork.png,Chamber_artwork.png,Cypher_artwork.png" data-text="Sentinels are the defensive class of agents in Valorant. These agents typically slow down, stall, or sometimes outright stop enemy pushes on certain areas of the map.">
-                    <p>Sentinel</p>
-                </div>
-
-            </div>
         </div>
-            <div class="Agents" id="agentSection">
-                <h2>Agents</h2>
-                <hr>
-                <div class="agent-display" id="agent-display" style="display: none;">
-                    <img id="main-agent-image" src="" class="main-agent">
-                    <div class="agent-info">
-                        <h2 id="agent-name"></h2>
-                        <p id="agent-description"></p>
-                    </div>
-                </div>
 
-                <div class="agent-icons">
-                    <div class="agent-row">
-                        <div class="agent-box" onclick="selectAgent('Jett', 'Representing her home country of South Korea, Jetts agile and evasive fighting style lets her take risks no one else can. She runs circles around every skirmish, cutting enemies before they even know what hit them.', 'Jett_artwork.png')">
-                            <img src="Jett.png" class="agent-icon">
-                        </div>
-                        <div class="agent-box" onclick="selectAgent('KAY/O', 'KAY/O is a machine of war built for a single purpose: neutralizing radiants. His power to Suppress enemy abilities dismantles his opponents capacity to fight back, securing him and his allies the ultimate edge.', 'KAYO_artwork.png')">
-                            <img src="KAYO.png" class="agent-icon">
-                        </div>
-                        <div class="agent-box" onclick="selectAgent('Sage', 'The stronghold of China, Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off aggressive pushes, she provides a calm center to a hellish fight.', 'Sage_artwork.png')">
-                            <img src="Sage.png" class="agent-icon">
-                        </div>
-                        <div class="agent-box" onclick="selectAgent('Brimstone', 'Joining from the U.S.A., Brimstones orbital arsenal ensures his squad always has the advantage. His ability to deliver utility precisely and safely make him the unmatched boots-on-the-ground commander.', 'Brimstone_artwork.png')">
-                            <img src="Brimstone.png" class="agent-icon">
-                        </div>
-                    </div>
-                
-                    <div class="agent-row">
-                        <div class="agent-box" onclick="selectAgent('Breach', 'Breach, the bionic Swede, fires powerful, targeted kinetic blasts to aggressively clear a path through enemy ground. The damage and disruption he inflicts ensures no fight is ever fair.', 'Breach_artwork.png')">
-                            <img src="Breach.png" class="agent-icon">
-                        </div>
-                        <div class="agent-box" onclick="selectAgent('Chamber', 'Well-dressed and well-armed, French weapons designer Chamber expels aggressors with deadly precision. He leverages his custom arsenal to hold the line and pick off enemies from afar, with a contingency built for every plan.', 'Chamber_artwork.png')">
-                            <img src="Chamber.png" class="agent-icon">
-                        </div>
-                        <div class="agent-box" onclick="selectAgent('Reyna', 'Forged in the heart of Mexico, Reyna dominates single combat, popping off with each kill she scores. Her capability is only limited by her raw skill, making her highly dependent on performance.', 'Reyna_artwork.png')">
-                            <img src="Reyna.png" class="agent-icon">
-                        </div>
-                        <div class="agent-box" onclick="selectAgent('Cypher', 'The Moroccan information broker, Cypher is a one-man surveillance network who keeps tabs on the enemys every move. No secret is safe. No maneuver goes unseen. Cypher is always watching.', 'Cypher_artwork.png')">
-                            <img src="Cypher.png" class="agent-icon">
-                        </div>
-                    </div>
-                    <div class="agent-row">
-                        <div class="agent-box" onclick="selectAgent('Gekko', 'Gekko the Angeleno leads a tight-knit crew of calamitous creatures. His buddies bound forward, scattering enemies out of the way, with Gekko chasing them down to regroup and go again.', 'Gekko_artwork.png')">
-                            <img src="Gekko.png" class="agent-icon">
-                        </div>
-                        <div class="agent-box" onclick="selectAgent('Cypher', 'A phantom of a memory, Omen hunts in the shadows. He renders enemies blind, teleports across the field, then lets paranoia take hold as his foe scrambles to learn where he might strike next.', 'Omen_artwork.png')">
-                            <img src="Omen.png" class="agent-icon">
-                        </div>
-                    </div>
+        <!-- Agents Section -->
+        <div class="Agents" id="agentSection">
+            <h2>Agents</h2>
+            <hr>
+            <div class="agent-display" id="agent-display" style="display: none;">
+                <img id="main-agent-image" class="main-agent">
+                <div class="agent-info">
+                    <h2 id="agent-name"></h2>
+                    <p id="agent-description"></p>
                 </div>
             </div>
+
+            <div class="agent-icons" id="agentContainer"></div>
         </div>
+
         <script src="valo.js"></script>
-   </body>
+    </body>
 </html>

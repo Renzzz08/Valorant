@@ -1,0 +1,20 @@
+{
+    "classes": {
+      "Controller": {
+        "description": "Controllers in Valorant are all about using their smokes. These agents can block off certain areas of the map to make offense or defense easier.",
+        "agents": ["Omen_artwork.png", "Brimstone_artwork.png"]
+      },
+      "Duelist": {
+        "description": "Duelists are the offensive class of agents in Valorant. These agents excel in one-vs-one fights and their goal is to break through enemy defenses.",
+        "agents": ["Reyna_artwork.png", "Jett_artwork.png"]
+      },
+      "Initiator": {
+        "description": "Initiators are the supportive class of agents in Valorant, particularly suited to initiating fights and helping teams win.",
+        "agents": ["Breach_artwork.png", "KAYO_artwork.png", "Gekko_artwork.png"]
+      },
+      "Sentinel": {
+        "description": "Sentinels are the defensive class of agents in Valorant. These agents typically slow down or outright stop enemy pushes on the map.",
+        "agents": ["Sage_artwork.png", "Chamber_artwork.png", "Cypher_artwork.png"]
+      }
+    }
+  }
