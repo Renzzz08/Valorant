@@ -164,7 +164,9 @@ nav img {
 
 .bg {
     display: flex;
+    font-family: 'Anton', sans-serif;
     align-items: center;
+    letter-spacing: 3px;
     justify-content: space-between;
     background: url("Beta_Key_Art_VALORANT.jpg") no-repeat center center;
     background-size: cover; /* Ensures the image covers the whole div */
