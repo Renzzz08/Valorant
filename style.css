@@ -242,6 +242,36 @@ nav img {
     background-repeat: no-repeat;
     padding: 20px;
 }
+
+#agent-abilities-container {
+    position: absolute;
+    top: 180px;
+    right: 25px;
+    padding: 15px;
+    border-radius: 5px;
+    max-width: 600px;
+    display: flex; /* Align images in a row */
+    gap: 40px; /* Adds space between images */
+    flex-wrap: wrap; /* Wrap images if there are too many */
+}
+
+
+.skill-image {
+    width: 60px; /* Adjust size as needed */
+    height: 60px;
+    object-fit: contain; /* Ensures the image fits without distortion */
+}
+
+.skill-image:hover {
+    transform: scale(1.1); /* Increases size on hover */
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 3px solid #ff3748;
+    border-radius: 8px;
+    width: 70px;
+    height: 70px;
+    
+}
+
 .agent-box:hover {
     background-color: rgba(255, 255, 255, 0.2); /* Adds a background to the box on hover */
     border: 2px solid #ff3748; /* Optional: adds a border to the box on hover */
@@ -295,3 +325,4 @@ nav img {
     height: auto;
     border-radius: 5px;
 }
+
