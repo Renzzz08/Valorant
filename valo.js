@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", function () {
             let mainAgentImage = document.getElementById("main-agent-image");
             let agentName = document.getElementById("agent-name");
             let agentDescription = document.getElementById("agent-description");
-            let closeButton = document.createElement("button");
+            
             closeButton.textContent = "X";
             closeButton.classList.add("close-btn");
             closeButton.addEventListener("click", function () {
