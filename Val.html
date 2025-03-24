@@ -1,5 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Valorant</title>
+</head>
+<body>
+    <nav>
+        <img src="V_Logomark_Red.png" width="130px" height="80px">
+        <center>
+            <img src="V_Logotype_Red.png" width="350px" height="100px">
+        </center>
+    </nav>
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
@@ -8,32 +20,66 @@
     <body>
         <nav>
             <img src="V_Logomark_Red.png" width="130px" height="80px">
-            <center>
-                <img src="V_Logotype_Red.png" width="350px" height="100px">
-            </center>
+
         </nav>
 
+    <nav class="top-nav">
+        <ul>
+            <li><a href="#classSection">Class</a></li>
+            <li><a href="#agentSection">Agents</a></li>
+        </ul>
+    </nav>
         <nav class="top-nav">
             <ul>
+                <li><a href="#aboutSection">About</a></li> 
                 <li><a href="#classSection">Class</a></li>
                 <li><a href="#agentSection">Agents</a></li>
             </ul>
         </nav>
 
+    <div class="bg">
+        <div class="text-section">
+            <h1>Welcome to Valorant</h1>
+            <p>Experience the world of tactical FPS action.</p>
+        </div>
+        <div class="video-section">
+            <video autoplay loop muted>
+                <source src="videoplayback.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <!-- Class Section -->
+    <div class="AGENT" id="classSection">
+        <h2>Class</h2>
+        <hr>
+        <div class="classes" id="classContainer"></div>
+        <div id="hoverContainer" class="hover-container"></div>
+        <div id="textBox" class="text-box"></div>
+    </div>
         <div class="bg">
             <div class="text-section">
-                <h1>Welcome to Valorant</h1>
-                <p>Experience the world of tactical FPS action.</p>
+                <center>
+                    <img src="V_Lockup_Vertical_Red.png" width="735px" height="350px">
+                </center>
             </div>
-            <div class="video-section">
-                <video autoplay loop muted>
-                    <source src="videoplayback.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
+            
         </div>
-        <div class="about">
-            <h2></h2>
+        <div class="about" id="aboutSection">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Valorant</h2>
+                    <hr>
+                    <p>Valorant is a tactical FPS game developed by Riot Games, combining precise shooting mechanics with unique agent abilities.</p>
+                </div>
+                <div class="video-section">
+                    <video autoplay loop muted>
+                        <source src="videoplayback.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
         </div>
         <!-- Class Section -->
         <div class="AGENT" id="classSection">
