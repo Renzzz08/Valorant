@@ -1,0 +1,63 @@
+{
+    "agents": {
+      "Jett": {
+        "name": "Jett",
+        "description": "Representing her home country of South Korea, Jett's agile and evasive fighting style lets her take risks no one else can. She runs circles around every skirmish, cutting enemies before they even know what hit them.",
+        "image": "Jett_artwork.png",
+        "icon": "Jett.png"
+      },
+      "KAY/O": {
+        "name": "KAY/O",
+        "description": "KAY/O is a machine of war built for a single purpose: neutralizing radiants. His power to Suppress enemy abilities dismantles his opponents' capacity to fight back, securing him and his allies the ultimate edge.",
+        "image": "KAYO_artwork.png",
+        "icon": "KAYO.png"
+      },
+      "Breach": {
+        "name": "Breach",
+        "description": "Breach, the bionic Swede, fires powerful, targeted kinetic blasts to aggressively clear a path through enemy ground. The damage and disruption he inflicts ensures no fight is ever fair.",
+        "image": "Breach_artwork.png",
+        "icon": "Breach.png"
+      },
+      "Reyna": {
+        "name": "Reyna",
+        "description": "Forged in the heart of Mexico, Reyna dominates single combat, popping off with each kill she scores. Her capability is only limited by her raw skill, making her highly dependent on performance.",
+        "image": "Reyna_artwork.png",
+        "icon": "Reyna.png"
+      },
+      "Chamber": {
+        "name": "Chamber",
+        "description": "Well-dressed and well-armed, French weapons designer Chamber expels aggressors with deadly precision. He leverages his custom arsenal to hold the line and pick off enemies from afar, with a contingency built for every plan.",
+        "image": "Chamber_artwork.png",
+        "icon": "Chamber.png"
+      },
+      "Brimstone": {
+        "name": "Brimstone",
+        "description": "Joining from the U.S.A., Brimstone's orbital arsenal ensures his squad always has the advantage. His ability to deliver utility precisely and safely make him the unmatched boots-on-the-ground commander.",
+        "image": "Brimstone_artwork.png",
+        "icon": "Brimstone.png"
+      },
+      "Sage": {
+        "name": "Sage",
+        "description": "The stronghold of China, Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off aggressive pushes, she provides a calm center to a hellish fight.",
+        "image": "Sage_artwork.png",
+        "icon": "Sage.png"
+      },
+      "Gekko": {
+        "name": "Gekko",
+        "description": "Gekko the Angeleno leads a tight-knit crew of calamitous creatures. His buddies bound forward, scattering enemies out of the way, with Gekko chasing them down to regroup and go again.",
+        "image": "Gekko_artwork.png",
+        "icon": "Gekko.png"
+      },"Cypher": {
+        "name": "Cypher",
+        "description": "The Moroccan information broker, Cypher is a one-man surveillance network who keeps tabs on the enemy's every move. No secret is safe. No maneuver goes unseen. Cypher is always watching.",
+        "image": "Cypher_artwork.png",
+        "icon": "Cypher.png"
+      },
+      "Omen": {
+        "name": "Omen",
+        "description": "A phantom of a memory, Omen hunts in the shadows. He renders enemies blind, teleports across the field, then lets paranoia take hold as his foe scrambles to learn where he might strike next.",
+        "image": "Omen_artwork.png",
+        "icon": "Omen.png"
+      }
+    }
+}
