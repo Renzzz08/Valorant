@@ -2,9 +2,10 @@
     "agents": {
       "Jett": {
         "name": "Jett",
-        "description": "Representing her home country of South Korea, Jett's agile and evasive fighting style lets her take risks no one else can. She runs circles around every skirmish, cutting enemies before they even know what hit them.",
+        "description": "Representing her home country of South Korea, Jett's agile and evasive fighting style lets her take risks no one else can.",
         "image": "Jett_artwork.png",
-        "icon": "Jett.png"
+        "icon": "Jett.png",
+        "skills": ["Abilities/Property 1=q-Jett_Updraft.png", "Abilities/Property 1=e-Jett_Tailwind.png", "Abilities/Property 1=c-Jett_CloudBurst.png","Abilities/Property 1=e-Jett_Tailwind.png"]
       },
       "KAY/O": {
         "name": "KAY/O",

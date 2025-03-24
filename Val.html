@@ -1,64 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css">
-        <title>Valorant</title>
-    </head>
-    <body>
-        <nav>
-            <img src="V_Logomark_Red.png" width="130px" height="80px">
-            <center>
-                <img src="V_Logotype_Red.png" width="350px" height="100px">
-            </center>
-        </nav>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Valorant</title>
+</head>
+<body>
+    <nav>
+        <img src="V_Logomark_Red.png" width="130px" height="80px">
+        <center>
+            <img src="V_Logotype_Red.png" width="350px" height="100px">
+        </center>
+    </nav>
 
-        <nav class="top-nav">
-            <ul>
-                <li><a href="#classSection">Class</a></li>
-                <li><a href="#agentSection">Agents</a></li>
-            </ul>
-        </nav>
+    <nav class="top-nav">
+        <ul>
+            <li><a href="#classSection">Class</a></li>
+            <li><a href="#agentSection">Agents</a></li>
+        </ul>
+    </nav>
 
-        <div class="bg">
-            <div class="text-section">
-                <h1>Welcome to Valorant</h1>
-                <p>Experience the world of tactical FPS action.</p>
+    <div class="bg">
+        <div class="text-section">
+            <h1>Welcome to Valorant</h1>
+            <p>Experience the world of tactical FPS action.</p>
+        </div>
+        <div class="video-section">
+            <video autoplay loop muted>
+                <source src="videoplayback.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <!-- Class Section -->
+    <div class="AGENT" id="classSection">
+        <h2>Class</h2>
+        <hr>
+        <div class="classes" id="classContainer"></div>
+        <div id="hoverContainer" class="hover-container"></div>
+        <div id="textBox" class="text-box"></div>
+    </div>
+
+    <!-- Agents Section -->
+    <div class="Agents" id="agentSection">
+        <h2>Agents</h2>
+        <hr>
+        <div class="agent-display" id="agent-display" style="display: none;">
+            <img id="main-agent-image" class="main-agent">
+            <div class="agent-info">
+                <h2 id="agent-name"></h2>
+                <p id="agent-description"></p>
+                
             </div>
-            <div class="video-section">
-                <video autoplay loop muted>
-                    <source src="videoplayback.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+            <div id="agent-abilities-container" class="agent-abilities"></div> <!-- Added for skills -->
+            
+            <div id="skill-display" style="display: none; text-align: center; margin-top: 20px;">
+                <h3 id="skill-name"></h3>
+                <p id="skill-description"></p>
+                <img id="skill-image" src="" alt="Skill Image" style="width: 100px; height: 100px; margin-top: 10px;">
             </div>
         </div>
-        <div class="about">
-            <h2></h2>
-        </div>
-        <!-- Class Section -->
-        <div class="AGENT" id="classSection">
-            <h2>Class</h2>
-            <hr>
-            <div class="classes" id="classContainer"></div>
-            <div id="hoverContainer" class="hover-container"></div>
-            <div id="textBox" class="text-box"></div>
-        </div>
 
-        <!-- Agents Section -->
-        <div class="Agents" id="agentSection">
-            <h2>Agents</h2>
-            <hr>
-            <div class="agent-display" id="agent-display" style="display: none;">
-                <img id="main-agent-image" class="main-agent">
-                <div class="agent-info">
-                    <h2 id="agent-name"></h2>
-                    <p id="agent-description"></p>
-                </div>
-            </div>
+        <div class="agent-icons" id="agentContainer"></div>
+    </div>
 
-            <div class="agent-icons" id="agentContainer"></div>
-        </div>
-
-        <script src="valo.js"></script>
-    </body>
+    <script src="valo.js"></script>
+    
+</body>
 </html>
