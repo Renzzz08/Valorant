@@ -5,13 +5,24 @@
         "description": "Representing her home country of South Korea, Jett's agile and evasive fighting style lets her take risks no one else can.",
         "image": "Jett_artwork.png",
         "icon": "Jett.png",
-        "skills": ["Abilities/Property 1=q-Jett_Updraft.png", "Abilities/Property 1=e-Jett_Tailwind.png", "Abilities/Property 1=c-Jett_CloudBurst.png","Abilities/Property 1=e-Jett_Tailwind.png"]
+        "skills": [ "Abilities/Property 1=q-Jett_Updraft.png", 
+                    "Abilities/Property 1=e-Jett_Tailwind.png", 
+                    "Abilities/Property 1=c-Jett_CloudBurst.png",
+                    "Abilities/Property 1=e-Jett_Tailwind.png"
+                  ]
       },
+      
       "KAY/O": {
         "name": "KAY/O",
         "description": "KAY/O is a machine of war built for a single purpose: neutralizing radiants. His power to Suppress enemy abilities dismantles his opponents' capacity to fight back, securing him and his allies the ultimate edge.",
         "image": "KAYO_artwork.png",
-        "icon": "KAYO.png"
+        "icon": "KAYO.png",
+        "skills": [ "Abilities/Property 1=c-KAYO_FRAGment.png", 
+                    "Abilities/Property 1=e-KAYO_ZEROpoint.png", 
+                    "Abilities/Property 1=q-KAYO_FLASHdrive.png",
+                    "Abilities/Property 1=x-KAYO_NULLcmd.png"
+                  ]
+
       },
       "Breach": {
         "name": "Breach",

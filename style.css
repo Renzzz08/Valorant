@@ -220,34 +220,67 @@ nav img {
     padding: 20px;
 }
 
-#agent-abilities-container {
-    position: absolute;
-    top: 180px;
-    right: 25px;
-    padding: 15px;
-    border-radius: 5px;
-    max-width: 600px;
-    display: flex; /* Align images in a row */
-    gap: 40px; /* Adds space between images */
-    flex-wrap: wrap; /* Wrap images if there are too many */
+
+
+/* Agent Info Styling */
+.agent-info {
+    max-width: 350px;
+    text-align: left;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    line-height: 1.4;
 }
 
 
+
+/* Agent Abilities - Positioned at the Bottom */
+/* Agent Abilities - Positioned at the Bottom */
+#agent-abilities-container {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Center align the abilities */
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+/* Ability Images */
 .skill-image {
-    width: 60px; /* Adjust size as needed */
+    width: 60px;
     height: 60px;
-    object-fit: contain; /* Ensures the image fits without distortion */
+    object-fit: contain;
+    cursor: pointer;
+    transition: 0.3s ease;
 }
 
 .skill-image:hover {
-    transform: scale(1.1); /* Increases size on hover */
+    transform: scale(1.1);
     background-color: rgba(255, 255, 255, 0.2);
     border: 3px solid #ff3748;
     border-radius: 8px;
     width: 70px;
     height: 70px;
-    
 }
+
+
+/* Responsive Design */
+@media screen and (max-width: 900px) {
+
+    .agent-info, #agent-abilities-container {
+        max-width: 90%;
+    }
+
+    .main-agent {
+        width: 250px;
+    }
+}
+
 
 .agent-box:hover {
     background-color: rgba(255, 255, 255, 0.2); /* Adds a background to the box on hover */
