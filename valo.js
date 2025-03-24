@@ -104,12 +104,8 @@ document.addEventListener("DOMContentLoaded", function () {
             let agentName = document.getElementById("agent-name");
             let agentDescription = document.getElementById("agent-description");
             
-            closeButton.textContent = "X";
-            closeButton.classList.add("close-btn");
-            closeButton.addEventListener("click", function () {
-                agentDisplay.style.display = "none";
-            });
-            agentDisplay.appendChild(closeButton);
+
+
             
             document.querySelectorAll(".agent-box").forEach(box => {
                 box.addEventListener("click", function () {
